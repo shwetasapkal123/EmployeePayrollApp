@@ -146,3 +146,48 @@ select
     text-decoration: none;
     text-align: center;
 }
+@media only screen and (max-width: 600px) {
+    .form {
+        margin-top: 10px;
+    }
+    .row-content {
+        flex-direction: column;
+    }
+    .profile-radio-content {
+        margin: 5%;
+        flex-direction: column;
+        flex-flow: wrap;
+    }
+    .profile {
+        margin: 5%;
+    }
+    select {
+        margin-bottom: 10px;
+    }
+    .button_container {
+        flex-direction: column-reverse;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .buttons>button {
+        margin: 5px;
+    }
+    .button {
+        margin: 5px;
+    }
+    .form_checkboxes {
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .button {
+        display: block;
+        margin: 5px;
+    }
+    select {
+        display: block;
+        margin: 5px;
+    }
+}
